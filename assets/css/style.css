@@ -1,0 +1,52 @@
+#gamename{
+  background-color: aqua;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+#compnumber{
+  background-color: lightblue;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+#score{
+  background-color: orange;
+  margin-left: 15px;
+ margin-bottom: 10px;
+}
+
+#instruction{
+
+  background-color: lightyellow;
+  margin-left: 15px;
+
+}
+
+#crystals{
+  margin-left: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+ 
+}
+
+#points {
+
+  background-color: yellow;
+  margin-left: 15px;
+  margin-top: 10px; 
+}
+
+#addnumber{
+  background-color: rgb(245, 4, 126);
+  margin-left: 15px;
+  padding-left: 15px; 
+}
+
+.container
+{
+  background-color: #62f704;
+}
+
+
+

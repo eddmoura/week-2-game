@@ -1,0 +1,12 @@
+*First i need 4 button(box) to be display on the screen with the 4 crystals images.
+ ----buttons .on("click")
+randomly number set 1 - 12
+every time a button is clicked it adds up an display if equals to computer number player wins if greater than computer number player loose
+if computer number greater than player number OR|| equals to computer number reset game
+new number will be generated for the crystal and the displayed 
+needs the wins++
+needs loses++
+*Second i need a box(jumbotrom) to display randomly generate computer number with values set from 19 - 120
+
+
+
