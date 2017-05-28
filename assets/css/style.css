@@ -1,19 +1,24 @@
 #gamename{
+  padding-top: 15px;
   background-color: aqua;
   margin-left: 15px;
-  padding-left: 15px;
+  margin-top: 15px;
 }
 
 #compnumber{
   background-color: lightblue;
   margin-left: 15px;
+  height: 100px;
   margin-bottom: 10px;
+  
 }
 
 #score{
   background-color: orange;
   margin-left: 15px;
- margin-bottom: 10px;
+  height: 100px;
+  margin-bottom: 10px;
+ 
 }
 
 #instruction{
@@ -23,7 +28,25 @@
 
 }
 
-#crystals{
+#crystal1{
+  margin-left: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+ 
+}
+#crystal2{
+  margin-left: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+ 
+}
+#crystal3{
+  margin-left: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+ 
+}
+#crystal4{
   margin-left: 15px;
   padding-left: 0px;
   padding-right: 0px;
@@ -47,6 +70,7 @@
 {
   background-color: #62f704;
 }
+
 
 
 

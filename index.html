@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <script type="text/javascript" src= "assets/javascript/game.js"></script>
+
+    <script type="text/javascript" src=assets/javascript/game.js></script>
+    
+     <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+    
     <link href="assets/css/reset.css">
+    
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <title>Crystals Collectors</title>
   </head>
   <body>
 
-    <div class="container">
+    <div id="game" class="container">
 
       <div class="row">
         <div id="gamename" class="col-lg-3 jumbotron">
-          <p>Collectors Crystals </p>
+          <p>Crystals Collectors</p>
         </div>
       </div>
 
@@ -33,37 +39,37 @@
 
       <div  class="row">
         <div id="compnumber" class="col-lg-4">
-          <h3>Compnumber</h3>
-          <br><br>
+          <h3 class="text-center" id="compnum"> </h3>
+          
         </div>
 
         <div id="score" class="col-lg-3" >
           <h3>Score</h3>
-          <h5>Wins:</h5>
-          <h5>Losses:</h5>
+          <h5 id="wins" >Wins:</h5>
+          <h5 id="losses" >Losses:</h5>
         </div>
 
       </div>
 
-      <div class="row">
+      <div id="crystals" class="row">
 
-        <div id="crystals" class="col-lg-1 col-md-2 col-sm-3 col-xs-3">
+        <button id="crystal1" class="col-lg-1 col-md-2 col-sm-3 col-xs-3">
           <img src="assets/images/yellowcrystal.jpeg" width="100" height="100">
-        </div>
+        </button>
 
-        <div id="crystals" class="col-lg-1 col-md-2 col-sm-3 col-xs-3" >
+        <button id="crystal2" class="col-lg-1 col-md-2 col-sm-3 col-xs-3" >
           <img src="assets/images/pinkcristal.jpeg" width="100" height="100">
-        </div>
+        </button>
 
-        <div id="crystals" class="col-lg-1 col-md-2 col-sm-3 col-xs-3" >
+        <button id="crystal3" class="col-lg-1 col-md-2 col-sm-3 col-xs-3" >
         <img src="assets/images/redcrystal.jpeg" width="100" height="100">
           
-        </div>
+        </button>
 
-        <div id="crystals" class="col-lg-1 col-md-2 col-sm-3 col-xs-3" >
+        <button id="crystal4" class="col-lg-1 col-md-2 col-sm-3 col-xs-3">
         <img src="assets/images/bluecrystal.jpeg" width="100" height="100">
           
-        </div>
+       </button>
 
       </div>
 
@@ -74,10 +80,21 @@
       </div>
 <br>
       <div class="row">
-        <div id="addnumber" class="col-lg-3 jumbotron">
+        <div id="addnumber" class="col-lg-2 jumbotron">
           <p>Number</p>
         </div>
+       <div class="col-lg-2">
+         
+      <button id="reset">Reset</button>
+
+       </div>
+
       </div>
+
+
+
+
+
 
 
 
