@@ -2,10 +2,10 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src=assets/javascript/game.js></script>
     
-     <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     
     <link href="assets/css/reset.css">
     
@@ -15,89 +15,78 @@
     <title>Crystals Collectors</title>
   </head>
   <body>
-
-    <div id="game" class="container">
-
+    <div  class="container">
       <div class="row">
         <div id="gamename" class="col-lg-3 jumbotron">
           <p>Crystals Collectors</p>
         </div>
       </div>
-
       <div class="row">
         <div>
           <div id="instruction" class="col-lg-5 ">
             
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sequi culpa perspiciatis eveniet adipisci animi nihil vero magni, ut ratione nisi laboriosam, sapiente obcaecati illo officia porro rem. Neque, illo.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sequi culpa perspiciatis eveniet adipisci animi nihil vero magni, ut ratione nisi laboriosam, sapiente obcaecati illo officia porro rem. Neque, illo.
+              You will be given a random number at the start of the game.
             </p>
+            <p>
+              There are four crystal below. By clicking on a crystal you will add a specific amount of points to your total score.
+            </p>
+            <p>
+              You win the game by matching the your total score to the random number, you lose by going over the value of the random number. 
+            </p>
+            <p>
+              The value will reset when you press the reset buttom.
+            </p>
+
+
           </div>
+
         </div>
       </div>
-<br>
-
+      <br>
       <div  class="row">
         <div id="compnumber" class="col-lg-4">
-          <h3 class="text-center" id="compnum"> </h3>
+          <h3 class="text-center" id="computer"> </h3>
           
         </div>
-
         <div id="score" class="col-lg-3" >
-          <h3>Score</h3>
+          
+          <h5 id="status">Status</h5>
           <h5 id="wins" >Wins:</h5>
-          <h5 id="losses" >Losses:</h5>
+          <h5 id="losses">Losses:</h5>
         </div>
-
       </div>
-
       <div id="crystals" class="row">
-
         <button id="crystal1" class="col-lg-1 col-md-2 col-sm-3 col-xs-3">
-          <img src="assets/images/yellowcrystal.jpeg" width="100" height="100">
+        <img src="assets/images/yellowcrystal.jpeg" width="100" height="100">
         </button>
-
         <button id="crystal2" class="col-lg-1 col-md-2 col-sm-3 col-xs-3" >
-          <img src="assets/images/pinkcristal.jpeg" width="100" height="100">
+        <img src="assets/images/pinkcristal.jpeg" width="100" height="100">
         </button>
-
         <button id="crystal3" class="col-lg-1 col-md-2 col-sm-3 col-xs-3" >
         <img src="assets/images/redcrystal.jpeg" width="100" height="100">
-          
+        
         </button>
-
         <button id="crystal4" class="col-lg-1 col-md-2 col-sm-3 col-xs-3">
         <img src="assets/images/bluecrystal.jpeg" width="100" height="100">
-          
-       </button>
-
+        
+        </button>
       </div>
-
       <div class="row">
         <div id="points" class="col-lg-3 ">
-          <p>Your total score:</p>
+          <p>Your Score:</p>
         </div>
       </div>
-<br>
+      <br>
       <div class="row">
         <div id="addnumber" class="col-lg-2 jumbotron">
-          <p>Number</p>
+          <h5>Your Total:</h5>
         </div>
-       <div class="col-lg-2">
-         
-      <button id="reset">Reset</button>
-
-       </div>
-
+        <div class="col-lg-2">
+          
+          <button id="reset">Reset</button>
+        </div>
       </div>
-
-
-
-
-
-
-
-
     </div>
   </body>
 </html>
