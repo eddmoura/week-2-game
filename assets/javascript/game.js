@@ -46,7 +46,7 @@ $("#crystal1").on("click", function() {
   if(game === true){
   guest = crystal.crystal01 + guest;
   $("#addnumber").html(guest);
- console.log(crystal.crystal01);
+ 
  status1();
 
 
@@ -58,7 +58,6 @@ $("#crystal2").on("click", function(){
   if(game === true){
   guest = crystal.crystal02 + guest;
   $("#addnumber").html(guest);
-  console.log(guest);
   status1();
   
 };
@@ -69,8 +68,7 @@ $("#crystal2").on("click", function(){
 $("#crystal3").on("click", function() {
   if(game === true){
   guest = crystal.crystal03 + guest;
-  $("#addnumber").html(guest);
-  console.log(guest);
+  $("#addnumber").html(guest); 
   status1();
 
 };
@@ -81,7 +79,6 @@ $("#crystal4").on("click", function() {
   if(game === true){
   guest = crystal.crystal04 + guest;
   $("#addnumber").html(guest);
- console.log(guest);
   status1();
 
 };
