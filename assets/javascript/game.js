@@ -6,7 +6,7 @@ var wins = 0;
 var losses = 0;
 var guest = 0;
 var game = true;
-var crystal = {crystal01: Math.floor(Math.random()*12 + 1), crystal02: Math.floor(Math.random()*12 +1), crystal03: Math.floor(Math.random()*12+1), crystal04: Math.floor(Math.random()*12+1)};
+var crystal = {crystal01: Math.floor(Math.random() * 12) + 1, crystal02: Math.floor(Math.random() * 12) + 1, crystal03: Math.floor(Math.random() * 12) + 1, crystal04: Math.floor(Math.random() * 12) + 1};
 
 function compunum(){
 computer = Math.floor(Math.random() * 100) + 19;
