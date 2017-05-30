@@ -84,17 +84,17 @@ $("#crystal4").on("click", function() {
 };
 });
 //This resets button reset the game everytime it comes to a end. 
-// $("#reset").on("click", function() {
-//   guest = 0;
-//   $("#addnumber").html(guest);
-//   $("#status").html("Status");
-//   compunum();
-//   status1();
-//   crystal = {crystal01: Math.floor(Math.random()*12 + 1), crystal02: Math.floor(Math.random()*12 +1), crystal03: Math.floor(Math.random()*12+1), crystal04: Math.floor(Math.random()*12+1)};
-//   game = true;
+$("#reset").on("click", function() {
+  guest = 0;
+  $("#addnumber").html(guest);
+  $("#status").html("Status");
+  compunum();
+  status1();
+  crystal = {crystal01: Math.floor(Math.random()*12 + 1), crystal02: Math.floor(Math.random()*12 +1), crystal03: Math.floor(Math.random()*12+1), crystal04: Math.floor(Math.random()*12+1)};
+  game = true;
   
   
-// });
+});
 
 
 });
